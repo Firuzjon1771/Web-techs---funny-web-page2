@@ -1,0 +1,157 @@
+@charset "windows-1251";
+ #header{
+       width: 100%;
+       height: 200px;
+       background-color: black;
+       margin-bottom: 5px;
+       background-image: url(5.jpg);
+       background-size:cover;
+       }
+#footer      {
+       height:100px;
+       background-color: black;
+       background-image: url(5.jpg);
+       background-size:cover;
+             }
+.clear       {
+       clear: both;
+       }
+h1           {
+       color: #000000;
+       font: 40px Georgia;
+       }
+h2           {
+       position:center;
+       }
+h3           {
+       width: 450px;
+       color: black;
+       font-style: italic;
+       margin: 70px 0 0 30px;
+       }
+.rightimg    { 
+       float: right; /* Выравнивание по правому краю  */ 
+       margin: 40px 30px 9px 9px; /* Отступы вокруг картинки */
+       }
+.bob         {
+       font-family: 'MyFont', Times, serif; /* Шрифт с засечками */
+       font-style: italic; /* Курсивное начертание */
+       font-size: 24pt;
+       color: white;
+       }
+.po       {
+       font-family: 'MyFont', Times, serif;
+       font-size: 24pt;
+       }
+.pop      {
+       font-family: 'MyFont', Times, serif;
+       font-size: 20pt;
+       margin-bottom: 80px;
+       }
+.p1       {
+       font-family: 'MyFont', Times, serif;
+       font-size: 20pt;
+       }
+.pop1     {
+       font-family: 'MyFont', Times, serif;
+       font-size: 24pt;
+       margin-bottom:10px;
+       }
+.cont2    {
+       display: grid;
+       grid-template-columns:50% 50%;
+       height: 5px;
+       }
+.f1       {
+       float:left;
+       margin-bottom: 5px;
+       }
+.f2       {
+       margin-left: 560px;
+       float:right;
+       margin-bottom: 5px;
+       }
+.cont {
+       display: grid;
+       grid-template-columns:20% 80%;
+       background-image: url("5.jpg");
+       }
+.img {
+       max-width: 95%;
+       height: auto;
+       }
+ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: #282828;
+       }
+            
+li {
+       float: left;
+       }
+            
+li a {
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       }
+            
+li a:hover {
+       background-color: #111;
+       }
+.active {
+       background-color: grey;
+       }
+@font-face {
+       font-family: 'MyFont';
+       src: url('/webfontkit-20221019-043054/sourcesanspro-regular-webfont.woff2') format('woff2'),
+              url('/webfontkit-20221019-043054/sourcesanspro-regular-webfont.woff') format('woff');
+       font-weight: normal;
+       font-style: normal;
+          
+       }
+@font-face {
+       font-family: 'MyFont';
+       src: url('/webfontkit-20221019-043054/sourcesanspro-regular-webfont.woff2') format('woff2'),
+              url('/webfontkit-20221019-043054/sourcesanspro-regular-webfont.woff') format('woff');
+       font-weight: normal;
+       font-style: normal; 
+       }
+div.scrolling-limit{
+       background-color: black;
+       overflow:hidden;
+       white-space:nowrap;
+       margin-top: 50px;
+       margin-left: 400px;
+       width: 1300px;     
+       }
+            
+div.scrolling{
+       position: relative;
+       -webkit-animation: scroll 2022s infinite linear;;
+       -moz-animation: scroll 2022s infinite linear;
+       -o-animation: scroll 2022s infinite linear;
+       animation: scroll 20s infinite linear;
+       color: white;
+       font-size: 24px;
+       }
+            
+@keyframes scroll{
+       0%   {left: 1000px;}
+       100% {left: -950px;}
+       }
+@-webkit-keyframes scroll{
+       0%   {left: 1000px;}
+       100% {left: -950px;}
+       }
+.divC{
+       margin-left: 7px;
+       margin-right: 5px;
+       margin-top: 20px;
+       color:white;
+       font-size: 20px;
+}
